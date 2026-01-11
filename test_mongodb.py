@@ -1,7 +1,7 @@
 
 from pymongo import MongoClient
 
-uri = "mongodb+srv://avanishdubeymsd_db_user:Admin123@cluster0.nkdbjb5.mongodb.net/?appName=Cluster0"
+uri = "mongodb+srv://username_db_user:<password@cluster0.nkdbjb5.mongodb.net/?appName=Cluster0"
 
 def run():
     try:
