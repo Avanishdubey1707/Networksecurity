@@ -6,7 +6,7 @@ import numpy as np
 """
 defining common contant variable for training pipeline
 """
-TARGET_COLUMN="result"
+TARGET_COLUMN="Result"
 PIPELINE_NAME:str= "NetworkSecurity"
 ARTIFACT_DIR:str= "Artifacts"
 FILE_NAME:str="phisingData.csv"
@@ -36,18 +36,18 @@ DATA_VALIDATION_VALID_DIR:str="validated"
 DATA_VALIDATION_INVALID_DIR:str="invalid"
 DATA_VALIDATION_DRIFT_REPORT_DIR:str="drift_report"
 DATA_VALIDATION_DRIFT_REPORT_FILE_NAME:str="report.yaml"
-
+PREPROCESSING_OBJECT_FILE_NAME="preprocessing.pkl"
 
 """
-Data Transformation realated constant start with DATA_TRANSFORMATION VAR NAME
+Data Transformation related constant start with DATA_TRANSFORMATION VAR NAME
 """
-DATA_TRANSFORMATION_DIR_NAME:str= "data_transformation"
-DATA_TRANSFORMATION_TRANSFORMED_DATA_DIR:str="transformed"
-DATA_TRANSFORMATION_TRANSFORMED_OBJECT_DIR:str="transformed_object"
+DATA_TRANSFORMATION_DIR_NAME: str = "data_transformation"
+DATA_TRANSFORMATION_TRANSFORMED_DATA_DIR: str = "transformed"
+DATA_TRANSFORMATION_TRANSFORMED_OBJECT_DIR: str = "transformed_object"
 
-# KNN IMPUTER TO REPLACE NAN VALUES
-DATA_TRANSFORMATION_IMPUTER_PARAMS:dict={
-    "missing_values":np.nan,
-    "n_neighbors":3,
-    "weights":"uniform"
+## kkn imputer to replace nan values
+DATA_TRANSFORMATION_IMPUTER_PARAMS: dict = {
+    "missing_values": np.nan,
+    "n_neighbors": 3,
+    "weights": "uniform",
 }
