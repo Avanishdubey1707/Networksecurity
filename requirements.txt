@@ -6,8 +6,11 @@ certifi
 pymongo==4.6.1
 
 scikit-learn
+mlflow
 dill
 pyaml
-
-
+dagshub
+fastapi
+uvicorn
+python-multipart
 # -e .

@@ -23,7 +23,7 @@ from sklearn.ensemble import (
     GradientBoostingClassifier,
     RandomForestClassifier,
 )
-import mlflow
+import mlflow # pyright: ignore[reportMissingImports]
 from urllib.parse import urlparse
 
 import dagshub

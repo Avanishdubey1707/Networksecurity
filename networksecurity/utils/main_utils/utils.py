@@ -1,4 +1,4 @@
-import yaml
+import yaml # type: ignore
 from networksecurity.exception.exception import NetworkSecurityException
 from networksecurity.logging.logger import logging
 import os,sys
@@ -74,7 +74,7 @@ def load_numpy_array_data(file_path: str) -> np.array:
             return np.load(file_obj)
     except Exception as e:
         raise NetworkSecurityException(e, sys) from e
-import yaml
+import yaml # pyright: ignore[reportMissingModuleSource]
 from networksecurity.exception.exception import NetworkSecurityException
 from networksecurity.logging.logger import logging
 import os,sys
