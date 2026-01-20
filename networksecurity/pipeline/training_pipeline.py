@@ -95,7 +95,7 @@ class TrainingPipeline:
     #     except Exception as e:
     #         raise NetworkSecurityException(e,sys)
         
-    ## local final model is going to s3 bucket 
+    # # local final model is going to s3 bucket 
         
     # def sync_saved_model_dir_to_s3(self):
     #     try:
